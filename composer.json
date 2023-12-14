@@ -1,0 +1,26 @@
+{
+    "name": "ferid/router",
+    "description": "This is Farids Router pack",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "larapack/dd": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ferid\\Router\\": "src/",
+            "Ferid\\Router\\Tests\\TestControllers\\": "src/Tests/TestControllers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "feridnesibzade",
+            "email": "ferid1.nesibzade@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "glhd/laravel-dumper": "dev-main"
+    }
+}
