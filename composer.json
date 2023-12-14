@@ -1,10 +1,9 @@
 {
     "name": "ferid/router",
-    "description": "This is Farids Router pack",
+    "description": "This is Farids simple router pack",
     "type": "library",
     "require": {
-        "php": ">=7.0",
-        "larapack/dd": "dev-master"
+        "php": ">=7.0"
     },
     "license": "MIT",
     "autoload": {
@@ -19,8 +18,5 @@
             "email": "ferid1.nesibzade@mail.ru"
         }
     ],
-    "minimum-stability": "dev",
-    "require-dev": {
-        "glhd/laravel-dumper": "dev-main"
-    }
+    "minimum-stability": "dev"
 }
